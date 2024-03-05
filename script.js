@@ -1,4 +1,4 @@
-// Exercise 1
+// Exercise 1 - Completo
 /* 
 Mapeamento de Números Pares: Crie uma arrow function que recebe um array de números e retorna um novo array contendo 
 apenas os números pares. Teste a função com um array de números.
@@ -8,7 +8,7 @@ function exercise01({number = [1, 2, 3, 4, 5]}) {
     const mapimpar = number.map((number) => number % 2 > 0 ?  console.log(number) : null);
 }
 
-// Exercise 2
+// Exercise 2 - Completo
 /* 
 Cálculo de Área de Círculo: Escreva uma arrow function que recebe o raio de um círculo e retorna a área calculada. 
 Utilize a fórmula area = π * raio^2. Teste a função com diferentes valores de raio.
@@ -21,7 +21,7 @@ function exercise02({a = 3.14 , b}) {
     console.log(areaquadrada(a, b));
 }
 
-// Exercise 3
+// Exercise 3 - Incompleto
 /*
 Filtragem de Palavras: Crie uma arrow function que recebe um array de palavras e um comprimento mínimo desejado. 
 A função deve retornar um novo array contendo apenas as palavras que têm o comprimento igual ou superior ao 
@@ -34,7 +34,7 @@ function exercise03(palavras, numero) {
     console.log(palavras);
 }
 
-// Exercise 4
+// Exercise 4 - Completo
 /*
 Conversão de Fahrenheit para Celsius: Escreva uma arrow function que converte uma temperatura de Fahrenheit para Celsius.
 Utilize a fórmula celsius = (fahrenheit -32) * 5/9. Teste a função com diferentes temperaturas em Fahrenheit.
@@ -46,7 +46,7 @@ function exercise04(f) {
     console.log("Temperatura de Fahrenheit: " + formcelsius(f));
 }
 
-// Exercise 5
+// Exercise 5 - Incompleto
 /* 
 Crie uma arrow function que recebe um array de números e retorna a soma apenas dos números ímpares. Teste a função 
 com um array de números.
